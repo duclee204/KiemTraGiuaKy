@@ -15,7 +15,7 @@ const WelcomeScreen = ({ navigation }) => {
         style={styles.image}
       >
         <View style={styles.overlayContainer}>
-          <Text style={styles.title}>Welcome</Text>
+          <Text style={styles.title1}>Welcome</Text>
           <Text style={styles.title}>to our store</Text>
           <Text style={styles.subtitle}>
             Get your groceries in as fast as one hour
@@ -44,10 +44,18 @@ const styles = StyleSheet.create({
   },
   overlayContainer: {
     flex: 1,
-    justifyContent: "flex-end", // Đẩy nội dung xuống cuối
+    justifyContent: "flex-end", 
     alignItems: "center",
     paddingHorizontal: 20,
-    paddingBottom: 80, // Chỉnh để văn bản thấp xuống
+    paddingBottom: 80,
+  },
+  title1: {
+    fontFamily: 'Gilroy',
+    fontSize: 48,
+    fontWeight: "bold",
+    color: "#fff",
+    marginBottom: 0,
+    textAlign: "center",
   },
   title: {
     fontFamily: 'Gilroy',
@@ -58,23 +66,24 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   subtitle: {
+    fontFamily: "Gilroy-Medium",
     fontSize: 16,
     color: "#fff",
     marginBottom: 30,
     textAlign: "center",
   },
   button: {
-    backgroundColor: "#00c853",
-    paddingVertical: 15,
-    paddingHorizontal: 30,
-    borderRadius: 25,
-    width: "80%", // Làm cho nút dài hơn
+    backgroundColor: "#53B175",
+    paddingVertical: 25,
+    paddingHorizontal: 10,
+    borderRadius: 20,
+    width: "90%",
     alignItems: "center",
   },
   buttonText: {
+    fontFamily: 'Gilroy',
     color: "#fff",
-    fontSize: 18, // Tăng kích cỡ chữ
-    fontWeight: "bold",
+    fontSize: 18, 
   },
 });
 
