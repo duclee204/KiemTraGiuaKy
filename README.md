@@ -3,7 +3,9 @@
 - **Mã SV**: BIT220032
 
 ## Ảnh Chụp Màn Hình
-![alt](test(1).jpg)
-![alt](test(2).jpg)
-![alt](test(3).jpg)
-![alt](test(4).jpg)
+<p align="center">
+  <img src="KiemTraGiuaKy(1).jpg " width="200" />
+  <img src="KiemTraGiuaKy(2).jpg " width="200" />
+  <img src="KiemTraGiuaKy(3).jpg " width="200" />
+  <img src="KiemTraGiuaKy(4).jpg " width="200" />
+</p>
